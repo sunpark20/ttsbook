@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "story_id": "goldilocks",
+    "tts_service": "typecast",
+    "api_endpoint": "https://typecast.ai/api/text-to-speech",
+    "total_paragraphs": 12,
+    "total_chars": 1176,
+    "note": "emotion_tone_preset으로 기본 감정 설정 후, emotion_prompt로 장면 맥락에 맞는 뉘앙스 보강"
+  },
+  "common_params": {
+    "tts_mode": "actor",
+    "lang": "ko-kr",
+    "model_version": "latest",
+    "xapi_hd": true,
+    "xapi_audio_format": "wav",
+    "volume": 100,
+    "speed_x": 1,
+    "tempo": 1.0,
+    "pitch": 0
+  },
+  "paragraphs": [
+    {
+      "id": 1,
+      "text": "옛날 옛적, 곰 세 마리가 숲속 작은 집에서 함께 살았어요. 한 마리는 조그맣고 조그맣고 아주아주 조그만 아기 곰이었어요. 한 마리는 중간 크기의 엄마 곰이었어요. 그리고 한 마리는 크고 크고 아주아주 커다란 아빠 곰이었어요.",
+      "chars": 126,
+      "our_emotion": "normal",
+      "typecast_params": {
+        "emotion_tone_preset": "normal",
+        "speed_x": 0.9,
+        "memo": "도입부, 차분하고 따뜻한 이야기 시작 톤. 살짝 느리게."
+      }
+    },
+    {
+      "id": 2,
+      "text": "곰 세 마리에게는 죽을 담는 그릇이 하나씩 있었어요. 조그맣고 조그맣고 아주아주 조그만 아기 곰에게는 조그만 그릇이. 중간 크기 엄마 곰에게는 중간 그릇이. 크고 크고 아주아주 커다란 아빠 곰에게는 커다란 그릇이요.",
+      "chars": 120,
+      "our_emotion": "normal",
+      "typecast_params": {
+        "emotion_tone_preset": "normal",
+        "memo": "반복 열거 구조. 리듬감 있게 읽어야 함."
+      }
+    },
+    {
+      "id": 3,
+      "text": "어느 날, 곰 세 마리가 아침으로 먹을 죽을 끓였어요. 보글보글 보글보글, 죽을 그릇에 나누어 담았어요. 그런데 죽이 너무 뜨거워서 입을 데일 것 같았어요. 그래서 곰 세 마리는 죽이 식는 동안 숲속으로 산책을 나갔어요.",
+      "chars": 123,
+      "our_emotion": "normal",
+      "typecast_params": {
+        "emotion_tone_preset": "normal",
+        "memo": "의성어 '보글보글'에서 살짝 밝은 톤. 평서문 위주."
+      }
+    },
+    {
+      "id": 4,
+      "text": "곰 세 마리가 산책을 하는 동안, 한 소녀가 숲속을 걸어오고 있었어요. 이름은 골디락스. 햇빛처럼 반짝이는 금빛 머리카락이 허리까지 찰랑찰랑 내려오는 소녀였어요. 빨간 볼에 초록색 눈이 반짝반짝. 아주 예쁜 아이였지요.",
+      "chars": 122,
+      "our_emotion": "happy",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "설레고 밝은 목소리로, 예쁜 아이를 소개하듯 반짝이는 느낌",
+        "memo": "골디락스 첫 등장. 시각적 묘사가 많아 생기있게."
+      }
+    },
+    {
+      "id": 5,
+      "text": "하지만 말이에요, 골디락스는 아주아주 말썽꾸러기였어요. 착한 아이는 절대 안 할 짓만 골라서 하는 그런 아이였어요.",
+      "chars": 64,
+      "our_emotion": "normal",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "장난스럽게 비밀을 알려주듯, 약간 낮추며 귀띔하는 말투",
+        "memo": "'하지만 말이에요'에서 톤 전환. 화자가 청자에게 귀띔하는 느낌."
+      }
+    },
+    {
+      "id": 6,
+      "text": "골디락스는 숲속을 이리저리 걷다가 곰 세 마리의 집을 발견했어요. 먼저 창문으로 안을 살짝 들여다보았어요. 그다음 열쇠 구멍에 눈을 갖다 대고 안을 들여다보았어요. 아무도 없는 걸 보자, 골디락스는 문고리를 들어 올렸어요.",
+      "chars": 124,
+      "our_emotion": "normal",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "호기심 가득한 목소리로, 살금살금 몰래 하는 느낌",
+        "memo": "몰래 엿보는 행동 연속. 긴장감과 호기심 공존."
+      }
+    },
+    {
+      "id": 7,
+      "text": "문은 잠겨 있지 않았어요. 곰 세 마리는 착한 곰이었거든요. 아무에게도 나쁜 짓을 한 적이 없고, 누가 자기들에게 나쁜 짓을 하리라고는 꿈에도 생각하지 못했어요.",
+      "chars": 90,
+      "our_emotion": "normal",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "안타깝고 따뜻한 목소리로, 순진한 곰들을 감싸주듯",
+        "memo": "화자의 코멘트. 곰들의 순수함에 대한 측은한 톤."
+      }
+    },
+    {
+      "id": 8,
+      "text": "그래서 골디락스는 문을 열고 살금살금 안으로 들어갔어요. 탁자 위에 죽이 놓여 있는 걸 보고 아주아주 좋아했지요.",
+      "chars": 63,
+      "our_emotion": "happy",
+      "typecast_params": {
+        "emotion_tone_preset": "happy",
+        "memo": "죽 발견! 단순한 기쁨. 프리셋 happy로 충분."
+      }
+    },
+    {
+      "id": 9,
+      "text": "골디락스는 먼저 크고 크고 아주아주 커다란 아빠 곰의 죽을 맛보았어요. 너무 뜨거웠어요! 골디락스는 혀를 내밀고 나쁜 말을 했어요. 무슨 말인지는 알려줄 수 없어요. 아이들이 따라 하면 안 되는 말이었거든요.",
+      "chars": 116,
+      "our_emotion": "angry",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "짜증 섞인 투덜거리는 목소리, 뜨거운 걸 먹고 화가 난 아이처럼",
+        "memo": "뜨거워서 짜증. 분노라기보다 아이의 투덜거림."
+      }
+    },
+    {
+      "id": 10,
+      "text": "그다음 중간 크기 엄마 곰의 죽을 맛보았어요. 너무 차가웠어요. 골디락스는 또 나쁜 말을 했어요.",
+      "chars": 54,
+      "our_emotion": "angry",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "실망하며 짜증내는 목소리, 또 마음에 안 들어서 불만인 아이",
+        "memo": "차가워서 불만. 9번보다 톤이 약간 다름(뜨거움→차가움)."
+      }
+    },
+    {
+      "id": 11,
+      "text": "그다음 조그맣고 조그맣고 아주아주 조그만 아기 곰의 죽을 맛보았어요. 뜨겁지도 않고, 차갑지도 않고, 딱 좋았어요! 골디락스는 너무 맛있어서 냠냠냠 다 먹어 버렸어요.",
+      "chars": 93,
+      "our_emotion": "happy",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "맛있는 걸 먹고 아주 신나서 기분 좋은 아이 목소리, 냠냠 먹는 소리 즐겁게",
+        "memo": "'딱 좋았어요!'에서 환호. 냠냠냠에서 즐거움 극대화."
+      }
+    },
+    {
+      "id": 12,
+      "text": "하지만 말썽꾸러기 골디락스는 또또 나쁜 말을 했어요. 그릇이 너무 작아서 양이 모자랐거든요. 자기가 남의 집 죽을 허락도 없이 먹어놓고 말이에요.",
+      "chars": 81,
+      "our_emotion": "angry",
+      "typecast_params": {
+        "emotion_tone_preset": "emotion-prompt",
+        "emotion_prompt": "어이없다는 듯 혀를 차며, 뻔뻔한 아이를 나무라듯 말하는 화자",
+        "memo": "화자의 코멘트. 골디락스의 뻔뻔함에 대한 어이없음."
+      }
+    }
+  ]
+}
